@@ -1,4 +1,5 @@
 import express, { type Express } from 'express';
+import env from './config/env.js';
 
 // Initialize the app
 const app: Express = express();
